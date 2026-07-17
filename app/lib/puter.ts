@@ -334,6 +334,8 @@ export const usePuterStore = create<PuterStore>((set, get) => {
       return;
     }
 
+    // const models = await puter.ai.listModels('claude');
+
     return puter.ai.chat(
       [
         {
@@ -350,7 +352,7 @@ export const usePuterStore = create<PuterStore>((set, get) => {
           ],
         },
       ],
-      { model: "claude-sonnet-4" }
+      { model: "claude-haiku-4-5" }
     ) as Promise<AIResponse | undefined>;
   };
 
