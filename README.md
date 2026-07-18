@@ -5,7 +5,7 @@
 ![React](https://img.shields.io/badge/React-19-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
-![Gemini](https://img.shields.io/badge/Gemini-AI-orange)
+![Claude](https://img.shields.io/badge/Claude-3.5_Haiku-orange)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
 ---
