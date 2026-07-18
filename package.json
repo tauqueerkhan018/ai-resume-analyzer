@@ -1,5 +1,8 @@
 {
-  "name": "my-react-router-app",
+  "name": "ai-resume-analyzer",
+  "description": "AI-powered resume analyzer using Claude 3.5 Haiku via Puter.js",
+"license": "MIT",
+"author": "Tauqueer Khan",
   "private": true,
   "type": "module",
   "scripts": {
