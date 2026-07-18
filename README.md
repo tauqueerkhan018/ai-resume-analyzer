@@ -48,7 +48,7 @@ AI Resume Analyzer helps candidates improve their resumes by:
   Upload resumes in PDF format for instant analysis.
 
 - 🤖 **AI-Powered Resume Analysis**  
-  Analyze resumes using **Claude 3.5 Haiku** to provide personalized feedback.
+  Analyze resumes using **Claude 4.5 Haiku** to provide personalized feedback.
 
 - 🎯 **ATS Compatibility Score**  
   Evaluate how well a resume aligns with Applicant Tracking Systems (ATS).
@@ -72,7 +72,7 @@ AI Resume Analyzer helps candidates improve their resumes by:
 |----------|--------------|
 | **Frontend** | React 19, React Router 7, Vite, TypeScript |
 | **Styling** | Tailwind CSS |
-| **AI** | Puter.js AI SDK, Claude 3.5 Haiku |
+| **AI** | Puter.js AI SDK, Claude 4.5 Haiku |
 | **PDF Processing** | PDF.js |
 | **State Management** | Zustand |
 | **Containerization** | Docker |
@@ -214,7 +214,7 @@ VITE_PUTER_APP_ID=your_puter_app_id
 flowchart LR
     A[Upload Resume PDF] --> B[Extract Resume Text]
     B --> C[Enter Job Description]
-    C --> D[Claude 3.5 Haiku via Puter.js]
+    C --> D[Claude 4.5 Haiku via Puter.js]
     D --> E[Analyze Resume]
     E --> F[Generate ATS Score]
     E --> G[Identify Missing Skills]
