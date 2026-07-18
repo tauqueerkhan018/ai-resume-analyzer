@@ -206,16 +206,9 @@ VITE_PUTER_APP_ID=your_puter_app_id
 ![Analysis](./public/images/analysis.png)
 
 
-## 🧠 How It Works
-
-1. 📄 Upload your resume in PDF format.
-2. 📑 Paste or upload a job description.
-3. 🤖 Claude 3.5 Haiku analyzes your resume using the Puter.js AI SDK.
-4. 🎯 The application compares your resume against the job description.
-5. 📊 An ATS compatibility score is generated.
 6. 💡 Receive personalized feedback, missing skills, and actionable improvement suggestions.
 
-7. ## 🔄 Workflow
+## 🔄 Workflow
 
 ```mermaid
 flowchart LR
@@ -227,6 +220,7 @@ flowchart LR
     E --> G[Identify Missing Skills]
     E --> H[Provide AI Suggestions]
 
+```
 ## 🗺️ Roadmap
 
 ### Completed
