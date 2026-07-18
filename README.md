@@ -1,87 +1,42 @@
-# Welcome to React Router!
+# 🤖 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+> AI-powered resume analyzer that evaluates resumes against job descriptions, calculates ATS compatibility, identifies missing skills, and provides actionable suggestions using Google's Gemini AI.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+![React](https://img.shields.io/badge/React-19-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
+![Gemini](https://img.shields.io/badge/Gemini-AI-orange)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
 ---
 
-Built with ❤️ using React Router.
+## 📸 Demo
+
+https://mtk-ai-resume-analyzer-bnrux.puter.site/
+
+![Demo](./public/images/resume-scan.gif)
+
+## 📖 About
+
+Recruiters spend only a few seconds reviewing each resume, and Applicant Tracking Systems (ATS) often filter resumes before a human ever sees them.
+
+AI Resume Analyzer helps candidates improve their resumes by:
+
+- Uploading a PDF resume
+- Comparing it against a job description
+- Calculating ATS compatibility
+- Detecting missing skills
+- Providing AI-generated suggestions for improvement
+
+
+## ✨ Features
+
+- 📄 PDF Resume Upload
+- 🤖 AI Resume Analysis
+- 🎯 ATS Compatibility Score
+- 📊 Resume Score Dashboard
+- 🔍 Missing Skills Detection
+- 💡 AI Improvement Suggestions
+- ⚡ Fast React Router 7 App
+- 📱 Responsive UI
+- 🐳 Docker Support
